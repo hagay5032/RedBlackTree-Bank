@@ -1,0 +1,32 @@
+New customer joined the "Red-Black-Bank". Current number of customer is: 1.
+New customer joined the "Red-Black-Bank". Current number of customer is: 2.
+New customer joined the "Red-Black-Bank". Current number of customer is: 3.
+New customer joined the "Red-Black-Bank". Current number of customer is: 4.
+New customer joined the "Red-Black-Bank". Current number of customer is: 5.
+New customer joined the "Red-Black-Bank". Current number of customer is: 6.
+New customer joined the "Red-Black-Bank". Current number of customer is: 7.
+New customer joined the "Red-Black-Bank". Current number of customer is: 8.
+Succesfuly update balance in account number 33 with: -200$ . Current balance is: -400$ .
+Succesfuly update balance in account number 31 with: -100$ . Current balance is: 300$ .
+The most richest customer is: "ssi levi" ,with account number: 35, And current balance: 500$ .
+
+All customers that there balance is negative are:
+Customer name is: yrri levi, And his account number is: 27. Current balance is: -300$ .
+Customer name is: dani li, And his account number is: 33. Current balance is: -400$ .
+Customer name is: yosi levi, And his account number is: 12. Current balance is: -300$ .
+
+The balance in account 33 is: -400$ .
+A customer with account number- 45 leave the bank. Current number of customer is: 7.
+The most richest customer is: "ww kal" ,with account number: 45, And current balance: 400$ .
+Succesfuly update balance in account number 11 with: -400$ . Current balance is: 0$ .
+Succesfuly update balance in account number 34 with: -101$ . Current balance is: -1$ .
+Succesfuly update balance in account number 12 with: 1000$ . Current balance is: 700$ .
+
+All customers that there balance is negative are:
+Customer name is: yrri levi, And his account number is: 27. Current balance is: -300$ .
+Customer name is: dani li, And his account number is: 33. Current balance is: -400$ .
+Customer name is: aai levi, And his account number is: 34. Current balance is: -1$ .
+
+The most richest customer is: "yosi levi" ,with account number: 12, And current balance: 700$ .
+New customer joined the "Red-Black-Bank". Current number of customer is: 8.
+The most richest customer is: "ww kal" ,with account number: 35, And current balance: 1000$ .

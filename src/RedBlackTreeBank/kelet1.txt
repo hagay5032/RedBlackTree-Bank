@@ -1,0 +1,22 @@
++ yosi levi 111 31 400
++ mosha kal 222 11 400
++ yrri levi 333 27 -300
++ dani li 444 33 -200
++ aai levi 555 34 100
++ ssi levi 454 35 500
++ ww kal 777 45 400
++ yosi levi 888 12 -300
+dani li 33 -200
+yosi levi 31 -100
+? MAX
+? MINUS
+? 33
+- 35
+? MAX
+mosha kal 11 -400
+aai levi 34 -101
+yosi levi 12 1000
+? MINUS
+? MAX
++ ww kal 678 35 1000
+? MAX

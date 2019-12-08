@@ -1,0 +1,67 @@
+
+/********************** README ****************************
+
+  There is six commands and queries that needs to be handle:
+  First lets look at the running time we want to achieve for this commands and 
+  queries- 
+ 
+  1) "deposit or draw money from the bank":
+	   Best scenario can be done in O(lgn). Because there is a need to find 
+	   the customer in the bank, and the best search we know takes O(lgn) time in worst case.
+	   
+  2) "joining a new customer to the bank":
+	   Best scenario can be done in O(lgn) in a red-black tree in worst case.
+	  
+  3) "customer leaving the bank":
+	   Best scenario can be done in O(lgn) in a red-black tree in worst case. 
+	   
+  4) "finding the balance in a specified account number":
+	   Best scenario can be done in O(lgn). because there is a need to find first
+	   the account, and the best search we know takes O(lgn) time in worst case.
+	   
+  5) "finding the richest customer in the bank":
+	   Best scenario can be done in O(1) if there is a pointer to the richest customer
+	   and support this pointer with all methods of the red-black tree.
+	   
+  6) " print all customers with negative accounts":
+	   Best case that we can hope for is O(n) because if all accounts are negative
+	   So we need to print them all, it mean that we need to visit every nodes in the tree.
+
+   
+  Second part- Proving all running time is exactly has the goal time to achieve.
+  1) "deposit or draw":
+       1.1) Transfer line from a file- to variables that we can work with - O(1) time.
+       1.2) Searching for a customer how as a specified account number- O(lgn) time.
+       1.3) Setting the balance in the account:
+            1.3.1) Deletion of the account from a red-black tree of accounts - O(lgn) time.
+            1.3.2) Insertion of the account to a red-black tree of accounts - O(lgn) time.
+  And total run time for this command is O(lgn).
+  
+  2) "joining new customer":
+       1.1) Transfer line from a file- to variables that we can work with - O(1) time.
+       1.2) Adding a customer to a red-black tree of customers - O(lgn) time.
+  and total run time for this command is O(lgn).
+  
+  3) "customer leave the bank":
+       1.1) Transfer line from a file- to variables that we can work with - O(1) time.
+       1.2) Searching for a customer how as a specified account number- O(lgn) time.
+       1.3) Deletion a customer from the red-black tree of customers- O(lgn) time.
+  and total run time for this command is O(lgn).
+  
+  4) "query to find the balance in specified account":
+       1.1) Transfer line from a file- to variables that we can work with - O(1) time.
+       1.2) Searching for a customer how as a specified account number- O(lgn) time.
+       1.3) Printing the balance in this account - O(1) time.
+  and total run time for this command is O(lgn).
+  
+  5) "query to find the richest customer":
+       1.1) Transfer line from a file- to variables that we can work with - O(1) time.
+       1.2) Printing the balance in the account of the richest customer - O(1) time.
+  and total run time for this command is O(1).
+  
+  6) "query to print all customers with negative balance ":
+       1.1) Transfer line from a file- to variables that we can work with - O(1) time.
+       1.2) Passing on all customers and printing the details of the customers
+            who as a negative balance - O(n) time.
+  and total run time for this command is O(n).
+    

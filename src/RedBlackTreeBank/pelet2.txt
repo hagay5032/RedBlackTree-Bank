@@ -1,0 +1,20 @@
+New customer joined the "Red-Black-Bank". Current number of customer is: 1.
+New customer joined the "Red-Black-Bank". Current number of customer is: 2.
+New customer joined the "Red-Black-Bank". Current number of customer is: 3.
+New customer joined the "Red-Black-Bank". Current number of customer is: 4.
+New customer joined the "Red-Black-Bank". Current number of customer is: 5.
+New customer joined the "Red-Black-Bank". Current number of customer is: 6.
+New customer joined the "Red-Black-Bank". Current number of customer is: 7.
+New customer joined the "Red-Black-Bank". Current number of customer is: 8.
+The most richest customer is: "ssi levi" ,with account number: 35, And current balance: 500$ .
+Succesfuly update balance in account number 33 with: 301$ . Current balance is: 501$ .
+The most richest customer is: "dani li" ,with account number: 33, And current balance: 501$ .
+Succesfuly update balance in account number 12 with: 100$ . Current balance is: 410$ .
+Succesfuly update balance in account number 33 with: -2$ . Current balance is: 499$ .
+The most richest customer is: "ssi levi" ,with account number: 35, And current balance: 500$ .
+
+All customers that there balance is negative are:
+There is no customers with negative balance.
+
+The balance in account 33 is: 499$ .
+A customer with account number- 31 leave the bank. Current number of customer is: 7.
