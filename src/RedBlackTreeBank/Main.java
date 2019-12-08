@@ -65,7 +65,7 @@ public class Main
             {
                 i = 0;
                 
-                /* Extract word from the line and put them in an array. */
+                // Extract word from the line and put them in an array. 
                 while( theRest != null)
                 {
                     arr = line.split(" ", 2);
@@ -142,7 +142,7 @@ public class Main
         catch(Exception ex)
         {
           System.out.println(ex.getMessage());
-          System.exit(1);
+          return;
         }
     }
 }

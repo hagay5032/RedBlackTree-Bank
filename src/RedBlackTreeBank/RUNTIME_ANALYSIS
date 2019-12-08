@@ -1,5 +1,5 @@
 
-/********************** README ****************************
+/********************** runtime-analysis ****************************
 
   There is six commands and queries that needs to be handle:
   First lets look at the running time we want to achieve for this commands and 
