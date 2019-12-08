@@ -16,14 +16,14 @@
 	   Best scenario can be done in O(lgn) in a red-black tree in worst case. 
 	   
   4) "finding the balance in a specified account number":
-	   Best scenario can be done in O(lgn). because there is a need to find first
+	   Best scenario can be done in O(lgn). Because there is a need to find first
 	   the account, and the best search we know takes O(lgn) time in worst case.
 	   
   5) "finding the richest customer in the bank":
 	   Best scenario can be done in O(1) if there is a pointer to the richest customer
 	   and support this pointer with all methods of the red-black tree.
 	   
-  6) " print all customers with negative accounts":
+  6) "print all customers with negative accounts":
 	   Best case that we can hope for is O(n) because if all accounts are negative
 	   So we need to print them all, it mean that we need to visit every nodes in the tree.
 
