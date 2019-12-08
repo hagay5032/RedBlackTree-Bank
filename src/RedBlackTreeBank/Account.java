@@ -6,7 +6,7 @@ package RedBlackTreeBank;
  * All accounts will be stored in a red-black tree with the balance as the key.
  * 
  * @author Hagay Enoch 
- * @version 30.11.2019
+ * @version 8.12.2019
  */
 public class Account
 {

@@ -7,7 +7,7 @@ package RedBlackTreeBank;
  * with account number as the key.
  *
  * @author Hagay Enoch 
- * @version 30.11.2019
+ * @version 8.12.2019
  */
 public class Customer
 {
@@ -25,7 +25,7 @@ public class Customer
      */
     public Customer()
     {
-        color = 0;    
+        color = 0;    // set node to be black
     }
     
     /**

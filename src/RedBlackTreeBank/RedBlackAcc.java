@@ -5,7 +5,7 @@ package RedBlackTreeBank;
  * Every node in this tree as a customer in the bank.
  * 
  * @author Hagay Enoch 
- * @version 30.11.2019
+ * @version 8.12.2019
  */
 public class RedBlackAcc
 {

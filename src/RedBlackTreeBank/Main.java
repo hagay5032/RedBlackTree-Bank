@@ -9,7 +9,7 @@ import java.io.FileReader;
  * queries.
  * 
  * @author Hagay Enoch 
- * @version 30.11.2019
+ * @version 8.12.2019
  */
 public class Main
 {    
@@ -113,7 +113,7 @@ public class Main
 	                         bank.printMaxBalance();
 	                    else
 	                    {
-	                    	/* It must be a query to return a balance */
+	                    	// it must be a query to return a balance 
 	                        int acc = transfer_string_to_integer(words[1]);
 	                        anon = bank.search(bank.getRoot(),acc);
 	                        if(anon != null)
@@ -123,7 +123,7 @@ public class Main
 	                    }
 	                }
 	                break;
-	                default: // the command  is a deposit or draw command 
+	                default: // the command is a deposit or draw 
 	                {
 	                    String first_name = words[0];
 	                    String last_name = words[1];
@@ -146,3 +146,5 @@ public class Main
         }
     }
 }
+
+

@@ -4,7 +4,7 @@ package RedBlackTreeBank;
  * This class manage a red-black tree as a bank with customers 
  * 
  * @author Hagay Enoch 
- * @version 30.11.2019
+ * @version 8.12.2019
  */
 public class RedBlackBank
 {
